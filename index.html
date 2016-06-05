@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kristen Mayer</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="nav">
+     <ul>
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#portfolio">Portfolio</a></li>
+     </ul>
+   </div>
+
+   <div id="home-container" class="container">
+      <a id="home" class="parallax"></a>
+      <img class="logo" src="images/logo.svg" alt="logo" />
+    </div>
+
+    <div id="about-container" class="container">
+      <a id="about" class="parallax"></a>
+      <div class="about left">
+        <div class="education">
+          <div class="header">Education</div>
+          <div class="main">
+            <div class="entry">
+              <div class="info">
+                <p class="title">Master of Science in Information</p>
+                <p class="subtitle">Human Computer Interaction</p>
+                <p class="place">University of Michigan - Ann Arbor</p>
+              </div>
+              <div class="dates">2016 - 2018</div>
+            </div>
+            <div class="entry">
+              <div class="info">
+                <p class="title">Bachelor of Arts in Informatics</p>
+                <p class="subtitle">Social Computing</p>
+                <p class="place">University of Michigan - Ann Arbor</p>
+              </div>
+              <div class="dates">2009 - 2013</div>
+            </div>
+          </div>
+        </div>
+        <div class="experience">
+          <div class="header">Experience</div>
+          <div class="main">
+            <div class="entry">
+              <div class="info">
+                <p class="title">Development Associate</p>
+                <p class="subtitle">Ankura Consulting Group</p>
+                <p class="place">Washington, DC</p>
+              </div>
+              <div class="dates">2014 - 2016</div>
+            </div>
+            <div class="entry">
+              <div class="info">
+                <p class="title">Website Content Manager</p>
+                <p class="subtitle">University of Michigan Housing Marketing Services</p>
+                <p class="place">Ann Arbor, MI</p>
+              </div>
+              <div class="dates">2013 - 2014</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about right">
+        <div class="header">Skills</div>
+        <div class="skill">
+          <div class="info">HTML5</div>
+          <div class="level">&bull; &bull; &bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">CSS3</div>
+          <div class="level">&bull; &bull; &bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">jQuery</div>
+          <div class="level">&bull; &bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">Adobe Illustrator</div>
+          <div class="level">&bull; &bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">Adobe Photoshop</div>
+          <div class="level">&bull; &bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">Adobe InDesign</div>
+          <div class="level">&bull; &bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">User Interface Design</div>
+          <div class="level">&bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">Ruby on Rails</div>
+          <div class="level">&bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">AJAX</div>
+          <div class="level">&bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">UX Research/Testing</div>
+          <div class="level">&bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">GitHub</div>
+          <div class="level">&bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">Python</div>
+          <div class="level">&bull; &bull;</div>
+        </div>
+        <div class="skill">
+          <div class="info">mySQL</div>
+          <div class="level">&bull; &bull;</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio-container" class="container">
+      <a id="portfolio" class="parallax"></a>
+      <div class="flip-card-container">
+        <div id="flip-card-nav">
+          <ul>
+            <li><a id="nav-all" href="#">All</a></li>
+            <li><a id="nav-des" href="#">Design</a></li>
+            <li><a id="nav-ux" href="#">User Experience</a></li>
+            <li><a id="nav-dev" href="#">Development</a></li>
+          </ul>
+        </div>
+        <div class="flip-card show-des show-dev hide-ux">
+          <img class="card-type" src="images/code.svg" alt="development logo" />
+          <img class="card-type" src="images/design.svg" alt="design logo" />
+          <h1>Portfolio</h1>
+        </div>
+        <div class="flip-card show-des hide-ux hide-dev">
+          <img class="card-type" src="images/design.svg" alt="design logo" />
+          <h1>LGBT on TV Infographic</h1>
+        </div>
+        <div class="flip-card show-ux hide-des hide-dev">
+          <img class="card-type" src="images/ux.svg" alt="ux logo" />
+          <h1>Real Time Farms Usability Researcher</h1>
+        </div>
+        <div class="flip-card hide-des hide-ux hide-dev">
+          <img class="card-type" src="images/construction.svg" alt="construction logo" />
+          <h1>Coming Soon</h1>
+        </div>
+        <div class="flip-card hide-des hide-ux hide-dev">
+          <img class="card-type" src="images/construction.svg" alt="construction logo" />
+          <h1>Coming Soon</h1>
+        </div>
+        <div class="flip-card hide-des hide-ux hide-dev">
+          <img class="card-type" src="images/construction.svg" alt="construction logo" />
+          <h1>Coming Soon</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact-container">
+      <a href="http://linkedin.com/in/kristenmayer?trk=hp-identity-photo">
+        <img src="images/linkedin.svg" alt="linkedin" /></a>
+      <a href="#">
+        <img src="images/mail.svg" alt="mail" /></a>
+    </div>
+  </body>
+</html>
