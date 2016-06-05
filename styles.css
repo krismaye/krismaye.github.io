@@ -210,12 +210,16 @@ div.container {
 /* tablet portrait and landscape */
 
 @media screen and (min-width : 768px) and (max-width : 1024px) {
-  img.logo {
-    margin: 0 auto;
-    display: block;
-    height: 75%;
-    width: 75%;
-    left: 0; }
+
+  #home-container {
+    background-image: url("images/home-background-small.png"); }
+
+    img.logo {
+      margin: 0 auto;
+      display: block;
+      height: 75%;
+      width: 75%;
+      left: 0; }
 
   div.education div.main,
   div.experience div.main {
@@ -223,18 +227,24 @@ div.container {
 
   div.skill.info {
     width: auto; }
+
+  #portfolio-container {
+    background-image: url("images/projects-background-small.png"); }
 }
 
 /* smartphone portrait and landscape */
 
 @media screen and (max-width : 768px) {
 
-  img.logo {
-    margin: 0 auto;
-    display: block;
-    height: 75%;
-    width: 75%;
-    left: 0; }
+  #home-container {
+    background-image: url("images/home-background-small.png"); }
+
+    img.logo {
+      margin: 0 auto;
+      display: block;
+      height: 75%;
+      width: 75%;
+      left: 0; }
 
   #about-container div.about,
   #about-container div.header,
@@ -257,4 +267,7 @@ div.container {
 
       div.entry {
         margin-bottom: 30px; }
+
+  #portfolio-container {
+    background-image: url("images/projects-background-small.png"); }
 }
