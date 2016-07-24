@@ -47,6 +47,9 @@
             div.info p {
               margin: 0; }
 
+            div.info a {
+              text-decoration: none; }
+
             p.title {
               font-weight: 700;
               font-size: 18px; }
