@@ -3,10 +3,17 @@
   <head>
     <title>Kristen Mayer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <link rel="stylesheet" type="text/css" href="styles/about.css">
+    <link rel="stylesheet" type="text/css" href="styles/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="styles/modals.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="scripts/jquery.leanModal.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
   </head>
 
   <body>
@@ -104,6 +111,10 @@
           <div class="level">&bull; &bull; &bull;</div>
         </div>
         <div class="skill">
+          <div class="info">Python</div>
+          <div class="level">&bull; &bull; &bull;</div>
+        </div>
+        <div class="skill">
           <div class="info">AJAX</div>
           <div class="level">&bull; &bull; &bull;</div>
         </div>
@@ -113,10 +124,6 @@
         </div>
         <div class="skill">
           <div class="info">GitHub</div>
-          <div class="level">&bull; &bull;</div>
-        </div>
-        <div class="skill">
-          <div class="info">Python</div>
           <div class="level">&bull; &bull;</div>
         </div>
         <div class="skill">
@@ -137,18 +144,63 @@
             <li><a id="nav-dev" href="#">Development</a></li>
           </ul>
         </div>
-        <div class="flip-card show-des show-dev hide-ux">
-          <img class="card-type" src="images/code.svg" alt="development logo" />
-          <img class="card-type" src="images/design.svg" alt="design logo" />
-          <h1>Portfolio</h1>
+        <a href="#portfolio-card" rel="leanModal">
+          <div class="flip-card show-des show-dev hide-ux">
+            <img class="card-type" src="images/code.svg" alt="development logo" />
+            <img class="card-type" src="images/design.svg" alt="design logo" />
+            <h1>Portfolio Website</h1>
+          </div>
+        </a>
+        <div class="modal-card" id="portfolio-card">
+          <div class="modal-header">Portfolio Website</div>
+          <p class="subtitle">June 2016 - July 2016</p>
+          <img class="construction" src="images/construction-small.svg" />
+          Under Construction
         </div>
-        <div class="flip-card show-des hide-ux hide-dev">
-          <img class="card-type" src="images/design.svg" alt="design logo" />
-          <h1>LGBT on TV Infographic</h1>
+        <a href="#infographic-card" rel="leanModal">
+          <div class="flip-card show-des hide-ux hide-dev">
+            <img class="card-type" src="images/design.svg" alt="design logo" />
+            <h1>LGBT on TV Infographic</h1>
+          </div>
+        </a>
+        <div class="modal-card" id="infographic-card">
+          <div class="modal-header">LGBT on TV Infographic</div>
+          <p class="subtitle">September 2015</p>
+          <a href="images/LGBTTVinfo.png" target="_blank">
+            <img class="infographic" src="images/LGBTTVinfo.png" />
+          </a>
+          <p class="infographic">Using information from GLAAD's Where We are on
+            TV report for 2014-2015, I created this infographic illustrating the
+            state of LGBT representation on TV.</p>
         </div>
-        <div class="flip-card show-ux hide-des hide-dev">
-          <img class="card-type" src="images/ux.svg" alt="ux logo" />
-          <h1>Real Time Farms Usability Researcher</h1>
+        <a href="#rtf-card" rel="leanModal">
+          <div class="flip-card show-ux hide-des hide-dev">
+            <img class="card-type" src="images/ux.svg" alt="ux logo" />
+            <h1>Real Time Farms Usability Researcher</h1>
+          </div>
+        </a>
+        <div class="modal-card" id="rtf-card">
+          <div class="modal-header">Real Time Farms Usability Researcher</div>
+          <p class="subtitle">January 2012 - April 2012</p>
+          <p>Real Time Farms is devoted to the collaborative efforts between restaurants,
+          farmers markets, farmers, and consumers to post information about food and
+          ingredients online. The Real Time Farms website consists of 3 major pages:
+          food, farmers markets, and eateries. Each of these options can be accessed
+          via a menu bar at the top of the site or the map interface on the home page.
+          Within these pages, visitors to the site can find food, farms, markets,
+          and restaurants located anywhere in the world, though a majority of
+          establishments are located in the United States. The website also includes
+          features that enable site visitors to search for individual farms, markets
+          and restaurants, and which ingredients these establishments use and where
+          they have come from.</p>
+
+          <p>As the final project for SI 422: Evaluation of Systems and Services, I,
+          along with a team of four others, created a report on the Real Time Farms
+          website that looked at the usability of the site. Our report included our
+          own thoughts, as well as findings obtained through interviews and testing
+          with others who were unfamiliar with the site.</p>
+
+          <a href="documents/RTF-UX.pdf" target="_blank">Real Time Farms Usability Report</a>
         </div>
         <div class="flip-card hide-des hide-ux hide-dev">
           <img class="card-type" src="images/construction.svg" alt="construction logo" />

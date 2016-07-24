@@ -22,4 +22,6 @@ $(document).ready(function () {
     $(".hide-dev").hide();
     $(".show-dev").show();
   });
+
+  $("a[rel*=leanModal]").leanModal();
 });

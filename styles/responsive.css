@@ -1,0 +1,65 @@
+/*  tablet portrait and landscape  */
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+
+  #home-container {
+    background-image: url("../images/home-background-small.png"); }
+
+    img.logo {
+      margin: 0 auto;
+      display: block;
+      height: 75%;
+      width: 75%;
+      left: 0; }
+
+  div.education div.main,
+  div.experience div.main {
+    width: auto; }
+
+  div.skill.info {
+    width: auto; }
+
+  #portfolio-container {
+    background-image: url("../images/projects-background-small.png"); }
+}
+
+
+/*  smartphone portrait and landscape  */
+
+@media screen and (max-width : 768px) {
+
+  #home-container {
+    background-image: url("../images/home-background-small.png"); }
+
+    img.logo {
+      margin: 0 auto;
+      display: block;
+      height: 75%;
+      width: 75%;
+      left: 0; }
+
+  #about-container div.about,
+  #about-container div.header,
+  #about-container div.main {
+    display: block;
+    padding: 0;
+    width: 100%; }
+
+  #about-container div.experience {
+    text-align: left; }
+
+  div.about.left {
+    border-right: none; }
+
+    div.education,
+    div.experience {
+      border-bottom: 1px solid #444444;
+      padding-bottom: 25px;
+      margin-bottom: 25px; }
+
+      div.entry {
+        margin-bottom: 30px; }
+
+  #portfolio-container {
+    background-image: url("../images/projects-background-small.png"); }
+}

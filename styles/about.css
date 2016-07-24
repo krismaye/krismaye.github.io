@@ -1,0 +1,70 @@
+#about-container {
+  background-color: #FFFCF7;
+  padding: 50px 30px;
+  min-height: 55vh;
+  overflow: auto; }
+
+  #about-container p {
+    color: #444444; }
+
+  div.left {
+    border-right: 1px solid #444444;
+    width: calc(60% - 40px);
+    padding: 0 20px;
+    float: left; }
+
+    div.education {
+      margin-bottom: 80px; }
+
+      div.header {
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        width: 150px;
+        float: left; }
+
+      div.main {
+        width: calc(100% - 150px);
+        display: inline-block; }
+
+        div.entry {
+          display: inline-block;
+          margin-bottom: 40px;
+          width: 100%;
+          clear: left; }
+
+        div.entry:last-child {
+          margin-bottom: 0; }
+
+          div.info {
+            width: calc(100% - 120px);
+            display: inline-block;
+            margin-right: 20px;
+            float: left; }
+
+            div.info p {
+              margin: 0; }
+
+            p.title {
+              font-weight: 700;
+              font-size: 18px; }
+
+            p.subtitle {
+              font-style: italic;
+              font-size: 16px; }
+
+          div.dates {
+            float: right;
+            width: 100px; }
+
+  div.right {
+    width: calc(40% - 72px);
+    padding: 0 20px 0 30px;
+    float: right; }
+
+    div.skill {
+      margin-bottom: 10px;
+      width: 100%;
+      clear: left; }

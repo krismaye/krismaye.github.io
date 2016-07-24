@@ -1,0 +1,56 @@
+#portfolio-container {
+  background-image: url("../images/projects-background.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 60px;
+  min-height: 70vh; }
+
+  #flip-card-nav {
+    box-shadow: 0 0 15px #444444;
+    background-color: #444444;
+    margin: 0 auto 20px auto;
+    max-width: 500px;
+    padding: 10px; }
+
+    #flip-card-nav ul {
+      padding: 0; }
+
+    #flip-card-nav li {
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 5px 15px;
+      font-weight: 300; }
+
+    #flip-card-nav a {
+      text-decoration: none;
+      letter-spacing: 2px;
+      color: white; }
+
+  div.flip-card-container {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    width: 100%; }
+
+    div.flip-card {
+      box-shadow: 0 0 15px #444444;
+      background-color: #444444;
+      display: inline-block;
+      vertical-align: bottom;
+      padding: 20px;
+      height: 150px;
+      width: 250px;
+      margin: 20px; }
+
+      div.flip-card h1 {
+        font-weight: 300;
+        font-size: 1.4em;
+        opacity: 0.7;
+        color: white; }
+
+      img.card-type {
+        padding: 5px;
+        height: 60px;
+        opacity: 0.7; }
