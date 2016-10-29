@@ -56,8 +56,8 @@ h1.modal.main {
 
 /* captions */
 
-p.caption {
+.my-slider p.caption {
   color: #444444;
   font-size: 12px;
   font-style: italic;
-  text-align: middle; }
+  text-align: center; }
