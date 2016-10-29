@@ -24,4 +24,6 @@ $(document).ready(function () {
   });
 
   $("a[rel*=leanModal]").leanModal();
+
+  $('.my-slider').unslider();
 });

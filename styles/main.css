@@ -24,6 +24,11 @@ div.container {
     width: 355px;
     padding: 0; }
 
+  #nav.subpage ul {
+    margin: 17px auto;
+    width: 105px;
+    padding: 0; }
+
     #nav li {
       padding: 17px 30px;
       display: inline; }
@@ -34,3 +39,25 @@ div.container {
         font-weight: 400;
         color: #444444;
         opacity: 1; }
+
+
+/* headings */
+
+h1.modal.main {
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 16px; }
+
+  h1.main.top {
+    margin-top: 0; }
+
+
+/* captions */
+
+p.caption {
+  color: #444444;
+  font-size: 12px;
+  font-style: italic;
+  text-align: middle; }
