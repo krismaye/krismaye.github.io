@@ -45,3 +45,7 @@ div.modal-card {
     margin-right: 5px;
     position: relative;
     top: 5px; }
+
+  img.modal-image {
+    height: 300px;
+    border: 1px solid #444444; }
