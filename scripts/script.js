@@ -25,5 +25,7 @@ $(document).ready(function () {
 
   $("a[rel*=leanModal]").leanModal();
 
-  $('.my-slider').unslider();
+  $('.my-slider').unslider({
+    infinite: true
+  });
 });
