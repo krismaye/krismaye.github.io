@@ -62,4 +62,7 @@
 
   #portfolio-container {
     background-image: url("../images/projects-background-small.png"); }
+
+    img.slide-image {
+      max-height: 200px; }
 }
