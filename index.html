@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="styles/contact.css">
     <link rel="stylesheet" type="text/css" href="styles/home.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link rel="stylesheet" type="text/css" href="styles/modals.css">
     <link rel="stylesheet" type="text/css" href="styles/portfolio.css">
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/slides.css">
     <link rel="stylesheet" type="text/css" href="styles/unslider.css">
     <link rel="stylesheet" type="text/css" href="styles/unslider-custom.css">
     <link rel="stylesheet" type="text/css" href="styles/unslider-dots.css">
@@ -155,30 +155,35 @@
             <li><a id="nav-dev" href="#">Development</a></li>
           </ul>
         </div>
-        <a href="#sage_grace-card" rel="leanModal">
-          <div class="flip-card show-des show-dev hide-ux">
-            <img class="card-type" src="images/design.svg" alt="design logo" />
-            <img class="card-type" src="images/ux.svg" alt="ux logo" />
-            <h1>User Experience Design Clinic</h1>
-          </div>
-        </a>
-        <div class="modal-card" id="sage_grace-card">
-          <div class="modal-header">User Experience Design Clinic</div>
+        <div id="sage_grace-card" class="flip-card show-des show-dev hide-ux">
+          <img class="card-type" src="images/design.svg" alt="design logo" />
+          <img class="card-type" src="images/ux.svg" alt="ux logo" />
+          <h1>User Experience Design Clinic</h1>
+        </div>
+        <div class="slide" id="sage_grace-slide">
+          <div class="slide-header">User Experience Design Clinic</div>
           <p class="subtitle">September 2016 - December 2016</p>
+          <p>The User Experience Design Clinic program provides the opportunity
+          for students to act as UX/UI design consultants working on real-world,
+          fast-paced projects from the University of Michigan and regional
+          communities within a semester’s framework. Students will work
+          collaboratively in interdisciplinary teams and will be responsible for
+          nurturing creative team dynamics, communicating with clients and
+          managing the progress of projects, while learning and receiving
+          guidance from mentors and team members with more or unique experiences.
+          </p>
           <img class="construction" src="images/construction-small.svg" />
           Under Construction
         </div>
-        <a href="#si_582-card" rel="leanModal">
-          <div class="flip-card show-des hide-dev show-ux">
-            <img class="card-type" src="images/design.svg" alt="design logo" />
-            <img class="card-type" src="images/ux.svg" alt="ux logo" />
-            <h1>SI 582: Introduction to Interaction Design</h1>
-          </div>
-        </a>
-        <div class="modal-card" id="si_582-card">
-          <div class="modal-header">SI 582: Introduction to Interaction Design</div>
+        <div id="si_582-card" class="flip-card show-des hide-dev show-ux">
+          <img class="card-type" src="images/design.svg" alt="design logo" />
+          <img class="card-type" src="images/ux.svg" alt="ux logo" />
+          <h1>SI 582: Introduction to Interaction Design</h1>
+        </div>
+        <div class="slide" id="si_582-slide">
+          <div class="slide-header">SI 582: Introduction to Interaction Design</div>
           <p class="subtitle">September 2016 - December 2016</p>
-          <div class="my-slider">
+          <div class="portfolio-slider">
             <ul>
               <li>
                 <h1 class="modal main">
@@ -197,7 +202,7 @@
                   may not know any other students with whom they could live,
                   especially if they are incoming first year students. Even for
                   returning students who may be looking to move to a different
-                  apartment, the process can be difficult because there isn’t
+                  apartment, the process can be difficult because there is not
                   necessarily one centralized place to look for apartment listings.
                   These factors can make the housing search stressful for graduate
                   students. I would like to design a technical intervention to
@@ -207,7 +212,7 @@
               </li>
               <li>
                 <a href="images/workflows.png" target="_blank">
-                  <img class="modal-image" src="images/workflows.png" />
+                  <img class="slide-image" src="images/workflows.png" />
                 </a>
                 <p class="caption">
                   Workflows of possible solutions make searching for apartments
@@ -230,7 +235,7 @@
               </li>
               <li>
                 <a href="images/persona.png" target="_blank">
-                  <img class="modal-image" src="images/persona.png" />
+                  <img class="slide-image" src="images/persona.png" />
                 </a>
                 <p class="caption">
                   Primary persona for my app
@@ -243,20 +248,18 @@
             </ul>
           </div>
         </div>
-        <a href="#si_520-card" rel="leanModal">
-          <div class="flip-card show-des hide-dev hide-ux">
-            <img class="card-type" src="images/design.svg" alt="design logo" />
-            <h1>SI 520: Graphic Design</h1>
-          </div>
-        </a>
-        <div class="modal-card" id="si_520-card">
-          <div class="modal-header">SI 520: Graphic Design</div>
+        <div id="si_520-card" class="flip-card show-des hide-dev hide-ux">
+          <img class="card-type" src="images/design.svg" alt="design logo" />
+          <h1>SI 520: Graphic Design</h1>
+        </div>
+        <div class="slide" id="si_520-slide">
+          <div class="slide-header">SI 520: Graphic Design</div>
           <p class="subtitle">September 2016 - December 2016</p>
-          <div class="my-slider">
+          <div class="portfolio-slider">
           	<ul>
               <li>
                 <a href="images/cherry-infographic.png" target="_blank">
-                  <img class="modal-image" src="images/cherry-infographic.png" />
+                  <img class="slide-image" src="images/cherry-infographic.png" />
                 </a>
                 <p class="caption">
                   Midterm Project: Design an infograpic about your favorite fruit
@@ -264,7 +267,7 @@
               </li>
           		<li>
                 <a href="images/alphabet-poster.png" target="_blank">
-                  <img class="modal-image" src="images/alphabet-poster.png" />
+                  <img class="slide-image" src="images/alphabet-poster.png" />
                 </a>
                 <p class="caption">
                   Homework Assignment: Design an alphabet poster
@@ -273,16 +276,14 @@
           	</ul>
           </div>
         </div>
-        <a href="#design_jam_1-card" rel="leanModal">
-          <div class="flip-card show-des hide-dev hide-ux">
-            <img class="card-type" src="images/design.svg" alt="design logo" />
-            <h1>SOCHI Design Jam</h1>
-          </div>
-        </a>
-        <div class="modal-card" id="design_jam_1-card">
-          <div class="modal-header">Student Organization for Human Computer Interaction Design Jam</div>
+        <div id="design_jam_1-card" class="flip-card show-des hide-dev hide-ux">
+          <img class="card-type" src="images/design.svg" alt="design logo" />
+          <h1>SOCHI Design Jam</h1>
+        </div>
+        <div class="slide" id="design_jam_1-slide">
+          <div class="slide-header">Student Organization for Human Computer Interaction Design Jam</div>
           <p class="subtitle">September 2016</p>
-          <div class="my-slider">
+          <div class="portfolio-slider">
           	<ul>
           		<li>
                 <h1 class="modal main top">Challenge Problem</h1>
@@ -340,7 +341,7 @@
                 </ul>
               </li>
           		<li>
-                <img class="modal-image" src="images/designjam1-process.png" />
+                <img class="slide-image" src="images/designjam1-process.png" />
                 <p class="caption">
                   Brainstorming ideas for how to display information
                 </p>
@@ -348,14 +349,12 @@
           	</ul>
           </div>
         </div>
-        <a href="#rtf-card" rel="leanModal">
-          <div class="flip-card show-ux hide-des hide-dev">
-            <img class="card-type" src="images/ux.svg" alt="ux logo" />
-            <h1>Real Time Farms Usability Researcher</h1>
-          </div>
-        </a>
-        <div class="modal-card" id="rtf-card">
-          <div class="modal-header">Real Time Farms Usability Researcher</div>
+        <div id="rtf-card" class="flip-card show-ux hide-des hide-dev">
+          <img class="card-type" src="images/ux.svg" alt="ux logo" />
+          <h1>Real Time Farms Usability Researcher</h1>
+        </div>
+        <div class="slide" id="rtf-slide">
+          <div class="slide-header">Real Time Farms Usability Researcher</div>
           <p class="subtitle">January 2012 - April 2012</p>
           <p>Real Time Farms is devoted to the collaborative efforts between restaurants,
           farmers markets, farmers, and consumers to post information about food and

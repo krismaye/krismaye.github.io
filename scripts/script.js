@@ -23,9 +23,49 @@ $(document).ready(function () {
     $(".show-dev").show();
   });
 
-  $("a[rel*=leanModal]").leanModal();
+  // $("a[rel*=leanModal]").leanModal();
 
-  $('.my-slider').unslider({
+  $('.portfolio-slider').unslider({
     infinite: true
+  });
+
+  $( "#sage_grace-card" ).click(function() {
+    $( "#si_582-slide" ).slideUp( "slow" );
+    $( "#si_520-slide" ).slideUp( "slow" );
+    $( "#design_jam_1-slide" ).slideUp( "slow" );
+    $( "#rtf-slide" ).slideUp( "slow" );
+    $( "#sage_grace-slide" ).slideToggle( "slow" );
+  });
+
+  $( "#si_582-card" ).click(function() {
+    $( "#sage_grace-slide" ).slideUp( "slow" );
+    $( "#si_520-slide" ).slideUp( "slow" );
+    $( "#design_jam_1-slide" ).slideUp( "slow" );
+    $( "#rtf-slide" ).slideUp( "slow" );
+    $( "#si_582-slide" ).slideToggle( "slow" );
+  });
+
+  $( "#si_520-card" ).click(function() {
+    $( "#sage_grace-slide" ).slideUp( "slow" );
+    $( "#si_582-slide" ).slideUp( "slow" );
+    $( "#design_jam_1-slide" ).slideUp( "slow" );
+    $( "#rtf-slide" ).slideUp( "slow" );
+    $( "#si_520-slide" ).slideToggle( "slow" );
+  });
+
+  $( "#design_jam_1-card" ).click(function() {
+    $( "#sage_grace-slide" ).slideUp( "slow" );
+    $( "#si_582-slide" ).slideUp( "slow" );
+    $( "#si_520-slide" ).slideUp( "slow" );
+    $( "#rtf-slide" ).slideUp( "slow" );
+    $( "#design_jam_1-slide" ).slideToggle( "slow" );
+  });
+
+  $( "#rtf-card" ).click(function() {
+    $( "#sage_grace-slide" ).slideUp( "slow" );
+    $( "#si_582-slide" ).slideUp( "slow" );
+    $( "#si_520-slide" ).slideUp( "slow" );
+    $( "#design_jam_1-slide" ).slideUp( "slow" );
+    $( "#rtf-slide" ).slideToggle( "slow" );
   });
 });

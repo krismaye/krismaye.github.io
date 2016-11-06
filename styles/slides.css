@@ -1,0 +1,34 @@
+div.slide {
+  background-color: #FFFCF7;
+  overflow: auto;
+  padding: 30px;
+  display: none;
+  float: right; }
+
+  div.slide-header {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px; }
+
+  div.slide p.subtitle {
+    text-align: center; }
+
+  div.slide p {
+    text-align: left; }
+
+  img.infographic {
+    float: left;
+    height: 350px;
+    margin-right: 20px;
+    border: 1px solid #AAAAAA; }
+
+  img.construction {
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px; }
+
+  img.slide-image {
+    max-height: 300px;
+    border: 1px solid #444444; }

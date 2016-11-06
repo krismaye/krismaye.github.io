@@ -1,8 +1,7 @@
 .unslider {
   overflow: auto;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .unslider-wrap {
   position: relative; }
