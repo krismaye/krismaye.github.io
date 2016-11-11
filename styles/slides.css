@@ -31,4 +31,5 @@ div.slide {
 
   img.slide-image {
     max-height: 300px;
+    max-width: 90vw;
     border: 1px solid #444444; }
