@@ -5,6 +5,9 @@ div.slide {
   display: none;
   float: right; }
 
+  #si_539-slide, #si_622-slide {
+    width: 100%; }
+
   div.slide-header {
     text-transform: uppercase;
     display: inline-block;
