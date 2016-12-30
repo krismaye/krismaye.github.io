@@ -61,3 +61,9 @@ h1.modal.main {
   font-size: 12px;
   font-style: italic;
   text-align: center; }
+
+
+/* link color */
+
+a {
+  color: #444444; }
