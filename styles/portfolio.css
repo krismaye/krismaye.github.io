@@ -47,8 +47,16 @@
       margin: 20px; }
 
       div.flip-card h1 {
-        font-weight: 300;
+        font-weight: 500;
         font-size: 1.4em;
+        margin-top: 7px;
+        opacity: 0.7;
+        color: white; }
+
+      div.flip-card h2 {
+        font-weight: 300;
+        margin-top: 7px;
+        font-size: 1em;
         opacity: 0.7;
         color: white; }
 
