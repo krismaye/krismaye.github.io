@@ -14,8 +14,7 @@ header {
 
 div.header-images {
   float: left;
-  padding: 20px;
-  max-width: 100%; }
+  padding: 20px; }
 
 img.logo {
   height: 30px;
@@ -25,8 +24,7 @@ img.logo {
 
 img.header {
   height: 35px;
-  padding-top: 10px;
-  max-width: calc(100% - 50px); }
+  padding-top: 10px; }
 
 /* Navigation */
 

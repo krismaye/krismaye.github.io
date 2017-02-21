@@ -120,7 +120,8 @@
 
   div.header-images {
     padding-bottom: 0;
-    width: 455px; }
+    width: 455px;
+    max-width: 100%; }
 
   nav {
     padding-top: 0;
