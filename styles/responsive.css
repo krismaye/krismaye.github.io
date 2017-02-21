@@ -17,7 +17,7 @@
 
   nav {
     padding-top: 0;
-    width: 368px; }
+    width: 262px; }
 
   div.header,
   div.main {
@@ -27,7 +27,8 @@
   /* Home Page */
 
   #home-background-container {
-    height: calc(100vh - 248px); }
+    height: calc(100vh - 248px);
+    overflow: hidden; }
 
   img.home-logo {
     height: 360px;
@@ -123,12 +124,13 @@
 
   nav {
     padding-top: 0;
-    width: 368px; }
+    width: 262px; }
 
   /* Home Page */
 
   #home-background-container {
-    height: calc(100vh - 248px); }
+    height: calc(100vh - 248px);
+    overflow: hidden; }
 
   div.triangle.gray {
     border-left: 60px solid transparent;
