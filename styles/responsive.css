@@ -120,11 +120,13 @@
 
   div.header-images {
     padding-bottom: 0;
-    width: 455px;
     max-width: 100%; }
 
   img.header {
     max-width: calc(100% - 45px); }
+
+  img.logo {
+    display: none; }
 
   nav {
     padding-top: 0;
