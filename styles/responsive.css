@@ -1,69 +1,228 @@
-/*  tablet portrait and landscape  */
+/*  Tablet Portrait & Landscape  */
 
 @media screen and (min-width : 768px) and (max-width : 1024px) {
 
-  #home-container {
-    background-image: url("../images/home-background-small.png"); }
+  header {
+    height: 150px; }
 
-    img.logo {
-      margin: 0 auto;
-      display: block;
-      height: 75%;
-      width: 75%;
-      left: 0; }
+  div.header-images,
+  nav {
+    margin: 0 auto;
+    display: block;
+    float: none; }
 
-  div.education div.main,
-  div.experience div.main {
-    width: auto; }
+  div.header-images {
+    padding-bottom: 0;
+    width: 455px; }
 
-  div.skill.info {
-    width: auto; }
+  nav {
+    padding-top: 0;
+    width: 368px; }
 
-  #portfolio-container {
-    background-image: url("../images/projects-background-small.png"); }
+  div.header,
+  div.main {
+    display: block;
+    width: 100%; }
+
+  /* Home Page */
+
+  #home-background-container {
+    height: calc(100vh - 248px); }
+
+  img.home-logo {
+    height: 360px;
+    left: calc(50% - 180px);
+    top: 30%; }
+
+  div.triangle.gray {
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 120px solid #878787;
+    left: 9%; }
+
+  div.triangle.pink {
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 200px solid #8E4162;
+    left: 17%; }
+
+  div.triangle.light-blue {
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 333px solid #AAC0D0;
+    left: 27%; }
+
+  div.triangle.dark-blue {
+    border-left: 190px solid transparent;
+    border-right: 190px solid transparent;
+    border-top: 253px solid #4B6F8B;
+    left: 47%; }
+
+  /* About Page */
+
+  div.about {
+    width: 80%; }
+
+  div.education {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 40px; }
+
+  /* Portfolio Page */
+
+  div.project-image {
+    height: 100%;
+    width: 100px; }
+
+  div.project-info {
+    height: 100%;
+    float: right;
+    width: calc(100% - 120px); }
+
+  div.project-logo {
+    background-size: 100%;
+    height: 100px;
+    text-align: center; }
+
+  div#lsa-honors {
+    background-image: url('../images/pf-lsa-small.png'); }
+
+  div#graphic-design {
+    background-image: url('../images/pf-graphic-design-small.png'); }
+
+  div#sage-grace {
+    background-image: url('../images/pf-sage-grace-small.png'); }
+
+  div#roommatch {
+    background-image: url('../images/pf-roommatch-small.png'); }
+
+  div#rtf {
+    background-image: url('../images/pf-rtf-small.png'); }
+
+  p.project-heading {
+    max-width: 75%; }
 }
 
 
-/*  smartphone portrait and landscape  */
+/*  Smartphone Portrait and Landscape  */
 
 @media screen and (max-width : 768px) {
 
-  #home-container {
-    background-image: url("../images/home-background-small.png"); }
+  header {
+    height: 150px; }
 
-    img.logo {
-      margin: 0 auto;
-      display: block;
-      height: 75%;
-      width: 75%;
-      left: 0; }
-
-  #about-container div.about,
-  #about-container div.header,
-  #about-container div.main {
+  div.header-images,
+  nav {
+    margin: 0 auto;
     display: block;
-    padding: 0;
+    float: none; }
+
+  div.header-images {
+    padding-bottom: 0;
+    width: 455px; }
+
+  nav {
+    padding-top: 0;
+    width: 368px; }
+
+  /* Home Page */
+
+  #home-background-container {
+    height: calc(100vh - 248px); }
+
+  div.triangle.gray {
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 80px solid #878787;
+    left: 12%; }
+
+  div.triangle.pink {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 133px solid #8E4162;
+    left: 20%; }
+
+  div.triangle.light-blue {
+    border-left: 167px solid transparent;
+    border-right: 167px solid transparent;
+    border-top: 222px solid #AAC0D0;
+    left: 30%; }
+
+  div.triangle.dark-blue {
+    border-left: 127px solid transparent;
+    border-right: 127px solid transparent;
+    border-top: 169px solid #4B6F8B;
+    left: 50%; }
+
+  img.home-logo {
+    height: 300px;
+    left: calc(50% - 150px);
+    top: 35%; }
+
+  /* About Page */
+
+  div.about {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+
+  img.portrait {
+    display: none; }
+
+  div.portrait-border {
+    display: none; }
+
+  p.summary {
+    display: block;
     width: 100%; }
 
-  #about-container div.experience {
-    text-align: left; }
+  div.details {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
 
-  div.about.left {
-    border-right: none; }
+  div.left,
+  div.right {
+    margin: 30px 0 0 0;
+    width: 80%;
+    float: none; }
 
-    div.education,
-    div.experience {
-      border-bottom: 1px solid #444444;
-      padding-bottom: 25px;
-      margin-bottom: 25px; }
+  div.right {
+    margin-bottom: 30px; }
 
-      div.entry {
-        margin-bottom: 30px; }
+  div.education {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 40px; }
 
-  #portfolio-container {
-    background-image: url("../images/projects-background-small.png"); }
+  div.header,
+  div.main {
+    display: block;
+    width: 100%; }
 
-    img.slide-image {
-      max-height: 200px;
-      max-width: 99%;}
+  /* Portfolio Page */
+
+  div.description,
+  div.project {
+    width: 80%; }
+
+  p.project-heading {
+    max-width: 65%; }
+
+  div.project-image {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px; }
+
+  div.project-logo {
+    display: none; }
+
+  img.small-margin {
+    margin-right: 0;
+    margin-bottom: 20px; }
+
+  img.small-hidden {
+    display: none;
+  }
 }

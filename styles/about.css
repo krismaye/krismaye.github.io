@@ -1,73 +1,129 @@
-#about-container {
-  background-color: #FFFCF7;
-  padding: 50px 30px;
-  min-height: 55vh;
-  overflow: auto; }
+/* About Me */
 
-  #about-container p {
-    color: #444444; }
+div.about {
+  margin: 0 auto 50px auto;
+  background-color: white;
+  width: calc(60%);
+  display: flex;
+  align-items: center; }
 
-  div.left {
-    border-right: 1px solid #444444;
-    width: calc(60% - 40px);
-    padding: 0 20px;
-    float: left; }
+img.portrait {
+  width: 200px; }
 
-    div.education {
-      margin-bottom: 80px; }
+div.portrait-border {
+  border: 10px solid #8AA2A9;
+  border-radius: 50%;
+  margin-right: 50px;
+  height: 200px;
+  width: 200px; }
 
-      div.header {
-        text-transform: uppercase;
-        display: inline-block;
-        margin-bottom: 20px;
-        font-weight: 700;
-        font-size: 18px;
-        width: 150px;
-        float: left; }
+p.summary {
+  width: calc(100% - 260px);
+  display: inline-block; }
 
-      div.main {
-        width: calc(100% - 150px);
-        display: inline-block; }
+/* Education, Experience & Skills Cards */
 
-        div.entry {
-          display: inline-block;
-          margin-bottom: 40px;
-          width: 100%;
-          clear: left; }
+div.details {
+  background-color: #8AA2A9;
+  display: flex;
+  justify-content: center; }
 
-        div.entry:last-child {
-          margin-bottom: 0; }
+div.left,
+div.right {
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.15); }
 
-          div.info {
-            width: calc(100% - 120px);
-            display: inline-block;
-            margin-right: 20px;
-            float: left; }
+p.header {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  width: 150px;
+  float: left; }
 
-            div.info p {
-              margin: 0; }
+/* Education & Experience Card */
 
-            div.info a {
-              text-decoration: none; }
+div.left {
+  margin: 30px 15px 30px 30px;
+  background-color: white;
+  width: calc(60% - 40px);
+  float: left; }
 
-            p.title {
-              font-weight: 700;
-              font-size: 18px; }
+div.education {
+  margin-bottom: 80px; }
 
-            p.subtitle {
-              font-style: italic;
-              font-size: 16px; }
+/* Entry */
 
-          div.dates {
-            float: right;
-            width: 100px; }
+div.main {
+  width: calc(100% - 150px);
+  display: inline-block; }
 
-  div.right {
-    width: calc(40% - 72px);
-    padding: 0 20px 0 30px;
-    float: right; }
+div.entry {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 100%;
+  clear: left; }
 
-    div.skill {
-      margin-bottom: 10px;
-      width: 100%;
-      clear: left; }
+div.entry:last-child {
+  margin-bottom: 0; }
+
+/* Entry Title, Subtitle, Place */
+
+div.info {
+  width: calc(100% - 120px);
+  display: inline-block;
+  margin-right: 20px;
+  float: left; }
+
+div.info p {
+  margin: 0; }
+
+div.info p.title {
+  font-weight: 700;
+  font-size: 18px; }
+
+div.info p.place {
+  color: #878787;
+  font-size: 14px;
+  margin-top: 5px; }
+
+/* Entry Dates */
+
+p.dates {
+  float: right;
+  width: 100px;
+  margin: 0; }
+
+/* Resume Link */
+
+span.resume {
+  font-size: 16px;
+  text-transform: uppercase; }
+
+/* Skills Card */
+
+div.right {
+  margin: 30px 30px 30px 15px;
+  background-color: white;
+  width: calc(40% - 72px);
+  float: right; }
+
+div.skill {
+  margin-bottom: 10px;
+  width: 100%;
+  clear: left;
+  color: #878787; }
+
+p.info {
+  width: calc(100% - 120px);
+  display: inline-block;
+  margin: 0 20px 0 0;
+  float: left; }
+
+p.level {
+  color: #8E4162;
+  margin: 0; }

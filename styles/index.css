@@ -1,0 +1,54 @@
+/* Less Padding for Index */
+
+div.top-section.index {
+  padding: 10px; }
+
+/* Set Height for Background Color */
+
+#home-background-container {
+  background-color: #8AA2A9;
+  height: calc(100vh - 188px);
+  overflow: hidden; }
+
+/* Main Logo */
+
+img.home-logo {
+  z-index: 1;
+  height: 400px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 25%; }
+
+/* Triangles */
+
+div.triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  -webkit-filter: drop-shadow(0px 1px 10px #444444);
+  -moz-filter: drop-shadow(0px 1px 10px #444444);
+  filter: drop-shadow(0px 1px 10px #444444); }
+
+div.triangle.gray {
+  border-left: 135px solid transparent;
+  border-right: 135px solid transparent;
+  border-top: 180px solid #878787;
+  left: 7%; }
+
+div.triangle.pink {
+  border-left: 225px solid transparent;
+  border-right: 225px solid transparent;
+  border-top: 300px solid #8E4162;
+  left: 15%; }
+
+div.triangle.light-blue {
+  border-left: 375px solid transparent;
+  border-right: 375px solid transparent;
+  border-top: 500px solid #AAC0D0;
+  left: 25%; }
+
+div.triangle.dark-blue {
+  border-left: 285px solid transparent;
+  border-right: 285px solid transparent;
+  border-top: 380px solid #4B6F8B;
+  left: 45%; }
