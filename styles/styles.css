@@ -25,7 +25,8 @@ img.logo {
 
 img.header {
   height: 35px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  max-width: calc(100%-45px); }
 
 /* Navigation */
 
