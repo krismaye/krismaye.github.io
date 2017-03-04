@@ -155,3 +155,6 @@ div.image-gallery:hover {
 
 div.image-gallery p.caption {
   margin: 10px; }
+
+img.gallery-thumb {
+  width: 180px; }
