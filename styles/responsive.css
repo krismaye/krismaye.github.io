@@ -24,6 +24,9 @@
     display: block;
     width: 100%; }
 
+  div.top-section {
+    padding: 15px; }
+
   /* Home Page */
 
   #home-background-container {
@@ -62,6 +65,7 @@
   /* About Page */
 
   div.about {
+    margin-bottom: 30px;
     width: 80%; }
 
   div.education {
@@ -131,6 +135,9 @@
     padding-top: 0;
     width: 270px; }
 
+  div.top-section {
+    padding: 15px; }
+
   /* Home Page */
 
   #home-background-container {
@@ -171,6 +178,7 @@
 
   div.about {
     width: 80%;
+    margin-bottom: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
