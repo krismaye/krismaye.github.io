@@ -1,111 +1,65 @@
-/*  Tablet Portrait & Landscape  */
+/*  Specific border change  */
 
-@media screen and (min-width : 769px) and (max-width : 1024px) {
-
-  header {
-    height: 120px; }
-
-  div.header-images,
-  nav {
-    margin: 0 auto;
-    display: block;
-    float: none; }
-
-  div.header-images {
-    padding-bottom: 0;
-    width: 455px; }
-
-  nav {
-    padding-top: 0;
-    width: 270px; }
-
-  div.header,
-  div.main {
-    display: block;
-    width: 100%; }
-
-  div.top-section {
-    padding: 15px; }
-
-  /* Home Page */
-
-  #home-background-container {
-    height: calc(100vh - 218px);
-    overflow: hidden; }
-
-  img.home-logo {
-    height: 360px;
-    left: calc(50% - 180px);
-    top: 30%; }
-
-  div.triangle.gray {
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-top: 120px solid #878787;
-    left: 9%; }
-
-  div.triangle.pink {
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
-    border-top: 200px solid #8E4162;
-    left: 17%; }
-
-  div.triangle.light-blue {
-    border-left: 250px solid transparent;
-    border-right: 250px solid transparent;
-    border-top: 333px solid #AAC0D0;
-    left: 27%; }
-
-  div.triangle.dark-blue {
-    border-left: 190px solid transparent;
-    border-right: 190px solid transparent;
-    border-top: 253px solid #4B6F8B;
-    left: 47%; }
-
-  /* About Page */
-
-  div.about {
-    margin-bottom: 30px;
-    width: 80%; }
+@media screen and (max-width: 1139px) {
 
   div.education {
-    padding-bottom: 40px;
+    border-right: none;
     border-bottom: 1px solid #666666;
-    margin-bottom: 40px; }
+    padding-bottom: 60px;
+  }
+}
 
-  /* Portfolio Page */
 
-  div.project-image {
-    height: 100%;
-    width: 100px; }
+/*  Tablet Portrait & Landscape  */
 
-  div.project-info {
-    height: 100%;
-    float: right;
-    width: calc(100% - 120px); }
+@media screen and (min-width : 769px) and (max-width : 1099px) {
 
-  div.project-logo {
-    background-size: 100%;
-    height: 100px;
-    text-align: center; }
+  div.fade-in {
+    width: 500px;
+    max-width: 100%; }
 
-  div#lsa-honors {
-    background-image: url('../images/pf-lsa-small.png'); }
+  div.education {
+    border-right: none;
+    border-bottom: 1px solid #666666;
+    padding-bottom: 60px; }
 
-  div#graphic-design {
-    background-image: url('../images/pf-graphic-design-small.png'); }
+  div.left, div.right,
+  div.text, div.image,
+  div.full {
+    width: 100%;
+    padding: 0; }
 
-  div#sage-grace {
-    background-image: url('../images/pf-sage-grace-small.png'); }
+  div.big-point {
+    padding: 35px 25px; }
 
-  div#roommatch {
-    background-image: url('../images/pf-roommatch-small.png'); }
+  div.image-right {
+    padding-top: 55px;
+    padding-bottom: 30px; }
 
-  div#rtf {
-    background-image: url('../images/pf-rtf-small.png'); }
+  div.image-right .text {
+    margin-bottom: 30px; }
 
-  p.project-heading {
-    max-width: 75%; }
+  div.image {
+    margin-bottom: 60px; }
+
+  div.image span.image-align {
+    display: none; }
+
+  div.image img.double {
+    margin-top: 20px; }
+
+  img.image-hide {
+    display: none;
+  }
+}
+
+
+/* Specific line splitting */
+
+@media screen and (max-width : 820px) {
+  p.goal br {
+    display: none;
+  }
 }
 
 
@@ -113,132 +67,72 @@
 
 @media screen and (max-width : 768px) {
 
-  header {
-    height: 120px; }
-
-  div.header-images,
-  nav {
-    margin: 0 auto;
-    display: block;
-    float: none; }
-
-  div.header-images {
-    padding-bottom: 0; }
-
-  img.header {
-    width: 100%; }
-
-  img.logo {
-    display: none; }
-
-  nav {
-    padding-top: 0;
-    width: 270px; }
-
-  div.top-section {
-    padding: 15px; }
-
-  /* Home Page */
-
-  #home-background-container {
-    position: relative;
-    height: calc(100vh - 218px);
-    overflow: hidden; }
-
-  div.triangle.gray {
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-top: 80px solid #878787;
-    left: 12%; }
-
-  div.triangle.pink {
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 133px solid #8E4162;
-    left: 20%; }
-
-  div.triangle.light-blue {
-    border-left: 167px solid transparent;
-    border-right: 167px solid transparent;
-    border-top: 222px solid #AAC0D0;
-    left: 30%; }
-
-  div.triangle.dark-blue {
-    border-left: 127px solid transparent;
-    border-right: 127px solid transparent;
-    border-top: 169px solid #4B6F8B;
-    left: 50%; }
-
-  img.home-logo {
-    height: 300px;
-    left: calc(50% - 150px);
-    top: 25%; }
-
-  /* About Page */
-
-  div.about {
-    width: 80%;
-    margin-bottom: 30px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-
-  img.portrait {
-    display: none; }
-
-  div.portrait-border {
-    display: none; }
-
-  p.summary {
-    display: block;
-    width: 100%; }
-
-  div.details {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-
-  div.left,
-  div.right {
-    margin: 30px 0 0 0;
-    width: 80%;
-    float: none; }
-
-  div.right {
-    margin-bottom: 30px; }
+  div.fade-in {
+    width: 500px;
+    max-width: 100%; }
 
   div.education {
-    padding-bottom: 40px;
+    border-right: none;
     border-bottom: 1px solid #666666;
-    margin-bottom: 40px; }
+    padding-bottom: 60px; }
 
-  div.header,
-  div.main {
-    display: block;
-    width: 100%; }
+  div.left, div.right,
+  div.text, div.image,
+  div.full {
+    width: 100%
+    padding: 0; }
 
-  /* Portfolio Page */
+  div.big-point {
+    padding: 35px 25px; }
 
-  div.description,
-  div.project {
-    width: 80%; }
+  div.image-right .text {
+    margin-bottom: 30px; }
 
-  p.project-heading {
-    max-width: 65%; }
+  div.image {
+    margin-bottom: 60px; }
 
-  div.project-image {
-    width: 100%;
-    height: 40px;
-    margin-bottom: 20px; }
-
-  div.project-logo {
+  div.image span.image-align {
     display: none; }
 
-  img.small-margin {
-    margin-right: 0;
-    margin-bottom: 20px; }
+  div.image img.double {
+    margin-top: 20px; }
 
-  img.small-hidden {
+  div.full, div.big-point,
+  div.gallery-container,
+  div.quick-intro-inner {
+    width: 500px;
+    max-width: calc(100% - 50px); }
+
+  div.full.prototypes {
+    margin-bottom: 35px; }
+
+  div.proto-images {
+    display: none; }
+
+  img.image-hide {
     display: none;
+  }
+}
+
+
+/* Specific X change */
+
+@media screen and (max-width : 550px) {
+
+  div.return {
+    text-align: center;
+  }
+}
+
+
+/* Specific navigation change */
+
+@media screen and (max-width : 390px) {
+
+  header {
+    height: auto; }
+
+  nav {
+    text-align: center;
   }
 }

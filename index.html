@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab|Open+Sans" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/spam-referrals-blocker.min.js"></script>
     <script type="text/javascript" src="scripts/script.js"></script>
@@ -14,30 +14,124 @@
 
   <body>
     <header>
-      <div class="header-images">
-        <img class="logo" src="images/logo-small.svg" alt="logo"/>
-        <img class="header" src="images/header-signiture.svg" alt="header image"/>
-      </div>
-      <nav>
+      <nav class="home">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a class="portfolio" href="#portfolio">Portfolio</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="top-section index"></div>
-
-    <div id="home-background-container">
-      <div class="triangle gray"></div>
-      <div class="triangle pink"></div>
-      <div class="triangle light-blue"></div>
-      <div class="triangle dark-blue"></div>
-      <img class="home-logo" src="images/logo-large.svg" alt="logo" />
+    <div class="landing" id="home">
+      <div class="intro">
+        <img class="logo" src="images/logo.svg" />
+        <div class="words">
+          <p>Research.</p>
+          <p>Design.</p>
+          <p>Develop.</p>
+        </div>
+      </div>
     </div>
 
-    <footer>
+    <div class="info" id="resume">
+      <div class="education">
+        <h2 class="index">Education</h2>
+        <div class="main">
+          <div class="entry">
+            <p class="title">Master of Science in Information</p>
+            <p class="dates">2016 - 2018</p>
+            <p class="subtitle">Human Computer Interaction</p>
+            <p class="place">University of Michigan School of Information - Ann Arbor</p>
+          </div>
+          <div class="entry">
+            <p class="title">Bachelor of Arts in Informatics</p>
+            <p class="dates">2009 - 2013</p>
+            <p class="subtitle">Social Computing</p>
+            <p class="place">University of Michigan College of Literature, Science &amp; the Arts - Ann Arbor</p>
+          </div>
+        </div>
+      </div>
+      <div class="experience">
+        <h2 class="index">Experience</h2>
+        <div class="main">
+          <div class="entry">
+            <p class="title">UX/Web Development Intern</p>
+            <p class="dates">May 2017 - present</p>
+            <p class="subtitle">Q LTD</p>
+            <p class="place">Ann Arbor, MI</p>
+          </div>
+          <div class="entry">
+            <p class="title">UX/UI Designer</p>
+            <p class="dates">Jan 2017 - present</p>
+            <p class="subtitle">Ally Financial Inc.</p>
+            <p class="place">Detroit, MI</p>
+          </div>
+          <div class="entry">
+            <p class="title">UI/Software Engineer</p>
+            <p class="dates">Feb 2014 - present</p>
+            <p class="subtitle">Ankura Consulting Group</p>
+            <p class="place">Washington, DC</p>
+          </div>
+          <div class="entry">
+            <div class="resume-link">
+              <a href="documents/Resume.pdf" target="_blank">
+                <span class="resume">download resume &#8594;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+      <h2 class="projects">Projects</h2>
+      <div class="projects-container">
+        <div class="project">
+          <a href="lsa-honors.html">
+            <span class="project-logo-align"></span>
+            <img class="project-logo" src="images/pf-lsa.png" />
+          </a>
+        </div>
+        <div class="project">
+          <a href="graphic-design.html">
+            <span class="project-logo-align"></span>
+            <img class="project-logo" src="images/pf-graphic-design.png" />
+          </a>
+        </div>
+        <div class="project">
+          <a href="sage-grace.html">
+            <span class="project-logo-align"></span>
+            <img class="project-logo" src="images/pf-sage-grace.png" />
+          </a>
+        </div>
+        <div class="project">
+          <a href="roommatch.html">
+            <span class="project-logo-align"></span>
+            <img class="project-logo" src="images/pf-roommatch.png" />
+          </a>
+        </div>
+        <div class="project coming-soon">
+          <a href="yrc.html">
+            <span class="project-logo-align"></span>
+            <img class="project-logo yrc" src="images/pf-yrc.png" />
+            <div class="overlay">
+              <p>Coming Soon!</p>
+            </div>
+          </a>
+        </div>
+        <div class="project coming-soon">
+          <a href="rtf.html">
+            <img class="project-logo rtf" src="images/pf-rtf.png" />
+            <div class="overlay">
+              <p>Coming Soon!</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="home">
       <div class="footer-links">
         <a href="https://linkedin.com/in/kristenmayer" target="_blank">
           <img src="images/footer-linkedin.svg" alt="linkedin" />
