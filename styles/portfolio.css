@@ -198,3 +198,31 @@ img.gallery-thumb {
 
 div.spacer {
   height: 50px; }
+
+
+/* Group of three */
+
+div.group-of-three {
+  display: flex;
+}
+
+div.third {
+  width: 33%;
+  padding: 10px;
+}
+
+div.third:first-child {
+  padding-left: 0;
+}
+
+div.third:last-child {
+  padding-right: 0;
+}
+
+
+/* iframe */
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
