@@ -18,7 +18,65 @@
         <a href="index.html#portfolio">&Xopf;</a>
       </div>
       <h1 class="project-title">Travel Plan</h1>
-      <h2 class="empty">Project details coming soon!</h2>
+
+      <div class="full">
+        <h2>About the Project</h2>
+        <p>
+          My goal for this project was to build a Drupal site that would allow
+          users to create itineraries and maps for upcoming trips. In order
+          to create this functionality, I built a custom module that:
+          <ul>
+            <li>
+              Allows the user to enter a city and type of attraction to search
+              for
+            </li>
+            <li>
+              Uses the Google Geolocation API to determine the latitude and
+              longitude of the city
+            </li>
+            <li>
+              Uses the city's latitude and longitude, along with the attraction
+              type to return attractions using the Google Places API
+            </li>
+            <li>
+              Shows the user attraction results, allowing them to add specific
+              attractions to their itinerary; each added item is saved as a node
+            </li>
+            <li>
+              Tracks trips for multiple different cities for each user
+            </li>
+          </ul>
+          In addition to my custom module, I also used the IP Geolocation Views
+          &amp; Maps module to display a map of attractions for each trip.
+        </p>
+      </div>
+
+      <div class="images">
+        <div>
+          <a href="images/tp-home.png" target="_blank">
+            <img src="images/tp-home.png" />
+          </a>
+          <p class="caption">
+            Getting user input for the city and attraction type
+          </p>
+        </div>
+        <div>
+          <a href="images/tp-trips.png" target="_blank">
+            <img src="images/tp-trips.png" />
+          </a>
+          <p class="caption">
+            Several trips for different cities
+          </p>
+        </div>
+        <div>
+          <a href="images/tp-map.png" target="_blank">
+            <img src="images/tp-map.png" />
+          </a>
+          <p class="caption">
+            Itinerary and map for a trip
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

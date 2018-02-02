@@ -33,6 +33,7 @@
     padding: 35px 25px; }
 
   div.image-right {
+    flex-wrap: wrap;
     padding-top: 55px;
     padding-bottom: 30px; }
 
@@ -49,7 +50,13 @@
     margin-top: 20px; }
 
   img.image-hide {
-    display: none;
+    display: none; }
+
+  div.images {
+    width: 500px; }
+
+  div.images div {
+    max-width: 100%;
   }
 }
 
@@ -85,6 +92,9 @@
   div.big-point {
     padding: 35px 25px; }
 
+  div.image-right {
+    flex-wrap: wrap; }
+
   div.image-right .text {
     margin-bottom: 30px; }
 
@@ -110,7 +120,13 @@
     display: none; }
 
   img.image-hide {
-    display: none;
+    display: none; }
+
+  div.images {
+    width: 500px; }
+
+  div.images div {
+    max-width: 100%;
   }
 }
 

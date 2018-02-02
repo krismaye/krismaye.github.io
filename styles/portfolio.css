@@ -86,17 +86,27 @@ div.timeline div.items {
 /* Image and Text Blocks */
 
 div.image-right {
-  justify-content: center;
   padding-top: 30px;
-  flex-wrap: wrap;
+  padding-bottom: 50px;
   display: flex; }
+
+div.image-right.collapse-top {
+  padding-top: 0; }
+
+div.image-right p:first-child {
+  margin-top: 0; }
 
 div.text,
 div.image {
   display: inline-block;
   max-width: 100%;
-  padding: 25px;
-  width: 425px; }
+  width: 450px; }
+
+div.text {
+  padding-right: 25px; }
+
+div.image {
+  padding-left: 25px; }
 
 span.image-align {
   vertical-align: middle;
@@ -173,11 +183,11 @@ iframe {
 /* Image Gallery */
 
 div.gallery-container {
-  margin: 0 auto 50px auto;
+  margin: 50px auto;
   justify-content: center;
   flex-wrap: wrap;
   display: flex;
-  width: 1050px; }
+  width: 950px; }
 
 div.image-gallery {
   border: 1px solid #666666;
@@ -192,6 +202,23 @@ div.image-gallery p.caption {
 
 img.gallery-thumb {
   width: 180px; }
+
+
+/* Inline images */
+
+div.images {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 950px; }
+
+div.images div {
+  padding: 10px;
+  max-width: 30%; }
+
+div.images div img {
+  max-width: 100%; }
 
 
 /* Spacer */
