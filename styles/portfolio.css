@@ -203,6 +203,17 @@ div.image-gallery p.caption {
 img.gallery-thumb {
   width: 180px; }
 
+div.attribution ul {
+  padding: 0; }
+
+div.attribution ul li {
+  list-style: none;
+  margin-bottom: 0; }
+
+img.portfolio-detail {
+  max-width: 100%;
+}
+
 
 /* Inline images */
 

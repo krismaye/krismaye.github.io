@@ -85,6 +85,7 @@ p.subtitle {
   color: #666666;
   margin: 5px 0; }
 
+div.caption,
 p.caption {
   font-family: "Zilla Slab", "Times New Roman", serif;
   text-align: center;
