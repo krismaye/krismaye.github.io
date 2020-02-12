@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 1139px) {
 
-  div.education {
+  .education {
     border-right: none;
     border-bottom: 1px solid #666666;
     padding-bottom: 60px;
@@ -14,48 +14,48 @@
 
 @media screen and (min-width : 769px) and (max-width : 1099px) {
 
-  div.fade-in {
+  .fade-in {
     width: 500px;
     max-width: 100%; }
 
-  div.education {
+  .education {
     border-right: none;
     border-bottom: 1px solid #666666;
     padding-bottom: 60px; }
 
-  div.left, div.right,
-  div.text, div.image,
-  div.full {
+  .left, .right,
+  .text, .image,
+  .full {
     width: 100%;
     padding: 0; }
 
-  div.big-point {
+  .big-point {
     padding: 35px 25px; }
 
-  div.image-right {
+  .image-right {
     flex-wrap: wrap;
     padding-top: 55px;
     padding-bottom: 30px; }
 
-  div.image-right .text {
+  .image-right .text {
     margin-bottom: 30px; }
 
-  div.image {
+  .image {
     margin-bottom: 60px; }
 
-  div.image span.image-align {
+  .image .image-align {
     display: none; }
 
-  div.image img.double {
+  .image .double {
     margin-top: 20px; }
 
-  img.image-hide {
+  .image-hide {
     display: none; }
 
-  div.images {
+  .images {
     width: 500px; }
 
-  div.images div {
+  .images figure {
     max-width: 100%;
   }
 }
@@ -64,7 +64,7 @@
 /* Specific line splitting */
 
 @media screen and (max-width : 820px) {
-  p.goal br {
+  .goal br {
     display: none;
   }
 }
@@ -74,58 +74,58 @@
 
 @media screen and (max-width : 768px) {
 
-  div.fade-in {
+  .fade-in {
     width: 500px;
     max-width: 100%; }
 
-  div.education {
+  .education {
     border-right: none;
     border-bottom: 1px solid #666666;
     padding-bottom: 60px; }
 
-  div.left, div.right,
-  div.text, div.image,
-  div.full {
+  .left, .right,
+  .text, .image,
+  .full {
     width: 100%
     padding: 0; }
 
-  div.big-point {
+  .big-point {
     padding: 35px 25px; }
 
-  div.image-right {
+  .image-right {
     flex-wrap: wrap; }
 
-  div.image-right .text {
+  .image-right .text {
     margin-bottom: 30px; }
 
-  div.image {
+  .image {
     margin-bottom: 60px; }
 
-  div.image span.image-align {
+  .image .image-align {
     display: none; }
 
-  div.image img.double {
+  .image .double {
     margin-top: 20px; }
 
-  div.full, div.big-point,
-  div.gallery-container,
-  div.quick-intro-inner {
+  .full, .big-point,
+  .gallery-container,
+  .quick-intro-inner {
     width: 500px;
     max-width: calc(100% - 50px); }
 
-  div.full.prototypes {
+  .full.prototypes {
     margin-bottom: 35px; }
 
-  div.proto-images {
+  .proto-images {
     display: none; }
 
-  img.image-hide {
+  .image-hide {
     display: none; }
 
-  div.images {
+  .images {
     width: 500px; }
 
-  div.images div {
+  .images figure {
     max-width: 100%;
   }
 }
@@ -135,7 +135,7 @@
 
 @media screen and (max-width : 550px) {
 
-  div.return {
+  .return {
     text-align: center;
   }
 }

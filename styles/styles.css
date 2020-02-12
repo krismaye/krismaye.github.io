@@ -63,15 +63,15 @@ h2 {
   margin-bottom: 0;
   margin-top: 0; }
 
-h2.index {
+.index {
   margin-bottom: 30px; }
 
-h2.projects {
+.projects {
   width: 85px;
   display: block;
   margin: 30px auto 0 auto; }
 
-h2.empty {
+.empty {
   margin-top: 60px;
   text-align: center;
   display: block;
@@ -80,13 +80,12 @@ h2.empty {
 
 /* Text */
 
-p.subtitle {
+.subtitle {
   font-size: 16px;
   color: #666666;
   margin: 5px 0; }
 
-div.caption,
-p.caption {
+.caption {
   font-family: "Zilla Slab", "Times New Roman", serif;
   text-align: center;
   font-size: 14px;
@@ -109,6 +108,17 @@ li {
   margin-bottom: 15px; }
 
 
+/* Figures */
+
+figure {
+  display: inline-block;
+  margin: 0; }
+
+figure.centered {
+  margin: 0 auto;
+  display: block; }
+
+
 /* Footer */
 
 footer {
@@ -119,6 +129,6 @@ footer img {
   padding: 10px;
   width: 35px; }
 
-div.footer-links {
+.footer-links {
   margin: 0 auto;
   width: 175px; }
