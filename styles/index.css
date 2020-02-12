@@ -1,6 +1,6 @@
 /* Landing Screen */
 
-div.landing {
+.landing {
   width: 100%;
   height: 100vh;
   background-image: url("../images/index.jpg");
@@ -12,23 +12,23 @@ div.landing {
   -o-background-size: cover;
   background-size: cover; }
 
-div.intro {
+.intro {
   padding-top: 100px; }
 
-img.logo {
+.logo {
   width: 200px;
   margin: 0 auto;
   display: block;
   margin-bottom: 30px; }
 
-div.words {
+.words {
   font-family: "Zilla Slab", "Times New Roman", serif;
   font-size: 52px;
   line-height: 100%;
   text-align: center;
   color: #444444; }
 
-div.words p {
+.words p {
   display: inline-block;
   padding: 10px 20px;
   margin: 0; }
@@ -36,52 +36,52 @@ div.words p {
 
 /* Education & Experience Cards */
 
-div.info {
+.info {
   justify-content: center;
   padding-top: 100px;
   flex-wrap: wrap;
   display: flex; }
 
-div.education,
-div.experience {
+.education,
+.experience {
   display: inline-block;
   margin-bottom: 40px;
   padding: 35px;
   padding-bottom: 25px;
   width: 500px; }
 
-div.education {
+.education {
   border-right: 1px solid #666666; }
 
-div.resume-link {
+.resume-link {
   font-size: 14px; }
 
 
 /* Entry */
 
-div.main {
+.main {
   display: inline-block;
   width: 100%; }
 
-div.entry {
+.entry {
   display: inline-block;
   margin-bottom: 40px;
   width: 100%;
   clear: left;
   float: left; }
 
-div.entry:last-child {
+.entry:last-child {
   margin-bottom: 0; }
 
 
 /* Entry Details */
 
-p.title {
+.title {
   display: inline-block;
   font-weight: bold;
   margin: 0; }
 
-p.dates {
+.dates {
   float: right;
   width: 140px;
   font-size: 14px;
@@ -89,21 +89,21 @@ p.dates {
   text-align: right;
   margin: 0; }
 
-p.place {
+.place {
   font-size: 14px;
   margin: 0; }
 
 
 /* Portfolo */
 
-div.projects-container {
+.projects-container {
   padding: 40px calc((100% - 860px)/2);
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   display: flex; }
 
-div.project {
+.project {
   position: relative;
   background-color: #FFFFFF;
   filter: grayscale(100%);
@@ -116,38 +116,38 @@ div.project {
   -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3); }
 
-img.project-logo {
+.project-logo {
   vertical-align: middle;
   display: block;
   margin: 0 auto;
   width: 150px; }
 
-img.project-logo.yrc,
-img.project-logo.rtf {
+.project-logo.yrc,
+.project-logo.rtf {
   opacity: 0.6; }
 
-img.project-logo.rtf {
+.project-logo.rtf {
   margin-top: 17px; }
 
-img.project-logo.yrc:hover,
-img.project-logo.rtf:hover {
+.project-logo.yrc:hover,
+.project-logo.rtf:hover {
   opacity: 1; }
 
-div.project:hover {
+.project:hover {
   filter: none; }
 
-span.project-logo-align {
+.project-logo-align {
   vertical-align: middle;
   display: inline-block;
   height: 25px; }
 
-span.project-logo-align.rtf {
+.project-logo-align.rtf {
   height: 34px; }
 
 
 /*  Overlay  */
 
-div.overlay {
+.overlay {
   background: #000000;
   position: absolute;
   top: 0;
@@ -157,11 +157,11 @@ div.overlay {
   opacity: 0;
   padding: 0; }
 
-div.overlay p {
+.overlay p {
   font-family: "Zilla Slab", "Times New Roman", serif;
   text-align: center;
   margin-top: 100px;
   color: white; }
 
-div.overlay:hover {
+.overlay:hover {
   opacity: .7; }
