@@ -42,7 +42,9 @@ nav li a {
   color: #FFFFFF; }
 
 nav li a.active {
-  font-weight: bold; }
+  font-weight: bold;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #FFFFFF; }
 
 
 /* Headings */
